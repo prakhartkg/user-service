@@ -1,0 +1,12 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: USER-SERVICE
+    
+springdoc:
+  swagger-ui:
+      path: /users/swagger-ui.html
+  api-docs:
+      path: /users/api-docs
